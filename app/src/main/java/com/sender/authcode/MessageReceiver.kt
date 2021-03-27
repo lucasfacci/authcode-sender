@@ -14,6 +14,7 @@ import java.util.*
 
 class MessageReceiver : BroadcastReceiver() {
 
+    @Suppress("DEPRECATION")
     override fun onReceive(context: Context, intent: Intent) {
         var number: String = ""
         var content: String = ""
